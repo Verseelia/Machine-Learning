@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project focuses on predicting credit card approval decisions based on a variety of applicant attributes and historical credit data. The goal is to build a machine learning model that can automate the decision-making process for banks, reducing manual labor and minimizing the risk of loan defaults. This model will help financial institutions efficiently evaluate credit applications and identify eligible customers.
+This is a **guided project** that focuses on predicting credit card approval decisions based on a variety of applicant attributes and historical credit data. The goal is to build a machine learning model that can automate the decision-making process for banks, reducing manual labor and minimizing the risk of loan defaults. This model will help financial institutions efficiently evaluate credit applications and identify eligible customers.
 
 ## Problem Statement
 
@@ -46,7 +46,7 @@ The columns in the dataset include details such as applicant demographics (age, 
 The models were evaluated using the following metrics:
 - **Accuracy**: The percentage of correct predictions.
 - **Precision, Recall, F1-Score**: These metrics evaluate the model's ability to predict positive and negative outcomes.
-- 
+
 
 ## Steps Involved
 
@@ -54,7 +54,6 @@ The models were evaluated using the following metrics:
 2. **Model Training**: Train base models (RF, KNN, and GB) using the training data.
 3. **Meta Model**: Combine the outputs from base models using Logistic Regression to improve the final model’s predictions.
 4. **Model Comparison**: Compare the performance of individual models and the meta-model to determine the best model.
-
-
+5. **Optimization**: Fine-tune model parameters to improve accuracy.
 
 
